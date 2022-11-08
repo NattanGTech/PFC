@@ -35,3 +35,14 @@ def calculNet(salaireBrut, public):
     # Sinon, c'est que je suis un travailleur privé
     # Alors je retourne le salaire brut - 23% de taxes
     return withdrawFees(salaireBrut, 23)
+
+nbPersonne = x
+
+if nbPersonne == 1:
+    tuRentres()
+else if nbPersonne == 3:
+    tuRentres()
+else if nbPersonne == 5:
+    tuRentres()
+else:
+    tuRentresPas()
