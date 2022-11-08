@@ -21,7 +21,17 @@ def revenuSeconde(salaireHeure, heureJourOuvrable, jourOuvrableAn):
     # Je divise mon salaire par le nombre de seconde par an
     return salaireAnnuel / nbSecondeAn
 
+def withdrawFees(total, percent):
+    # calcul du montant des taxes a retirer
+    fees = total * (percent / 100)
+    # Je retourne mon total sans les taxes
+    return total - fees
+
 def calculNet(salaireBrut, public):
-    pourcentage
-    # Je soustrais mon pourcentage au salaire brut
-    return salaireBrut - (prc / 100 * salaireBrut)
+    # Si j'occupe un poste de la fonction publique
+    if public:
+    # Alors je retourne le salaire brut - 15% de taxes
+        return withdrawFees(salaireBrut, 15)
+    # Sinon, c'est que je suis un travailleur privé
+    # Alors je retourne le salaire brut - 23% de taxes
+    return withdrawFees(salaireBrut, 23)
