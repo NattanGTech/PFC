@@ -1,5 +1,5 @@
-DEBUT
-r = 12 000
+#DEBUT
+r = 12000
 s = 1250
 e = 10
 rh = 230
@@ -26,10 +26,9 @@ assertionDeuxPtDeux = (e * s < r) # False
 print(assertionDeux)
 
 
-def calculPtDeux(){
+def calculPtDeux():
     return (e * s < r)
-}
 
 assertionDeux = (365 * 3) / (4 - (12 - 8)) * (rh) > r == calculPtDeux()
 
-FIN
+#FIN
