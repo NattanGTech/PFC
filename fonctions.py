@@ -199,9 +199,21 @@ def fibonacci(xDebut, lenMax):
     return suite
 """
 
+"""
+from random import randint
 
+def tab2Dim(lenTab):
+    tab = []
+    for i in range(lenTab):
+        tab.append([])
+    for _ in range(lenTab):
+        for j in range(lenTab):
+            tab[j].append(random.randint(0, 10))
+    return tab
 
+def adjacent(coord1, coord2):
+    for i in range(len(tab)):
+        for j in range(len(tab)):
+            if tab[coord1[1]][coord1[2]] == tab[coord2[1]][coord2[2] - 1]
 
-#tableau 2 dim adjacent
-
-
+"""
