@@ -175,18 +175,32 @@ def login(userName, password, listUser):
 
 """
 def fibonacci(xDebut, lenMax):
+    # Pour chaque valeur jusqu'à lenMax
     for i in range(lenMax):
+        # Si on est à la premiere valeur
         if i == 0:
+            # Alors on met 0 dans le variable de fin
             suite = "0"
+        # Sinon Si on est à la deuxieme valeur
         elif i == 1:
+            # Alors on ecrit la valeur de xDebut dans la variable de fin
             suite = concatene(suite, xDebut)
+            # Je stock ma premiere valeur
             stock = 0
+        # Sinon
         else:
+            # J'addtionne les deux derniere valeur et les met dans une variable
             xDebut = xDebut + stock
+            # Je stock la valeur precedante
             stock = xDebut - stock
+            # on ecrit la valeur qui se trouve dans xDebut dans la variable de fin
             suite = concatene(suite, str(xDebut))
+    # Je retourne mon resultat
     return suite
 """
+
+
+
 
 #tableau 2 dim adjacent
 
