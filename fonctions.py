@@ -172,3 +172,22 @@ def login(userName, password, listUser):
             # Alors afficher "vous etes connecte"
             print("Vous etes connecte")
 """
+
+"""
+def fibonacci(xDebut, lenMax):
+    for i in range(lenMax):
+        if i == 0:
+            suite = "0"
+        elif i == 1:
+            suite = concatene(suite, xDebut)
+            stock = 0
+        else:
+            xDebut = xDebut + stock
+            stock = xDebut - stock
+            suite = concatene(suite, str(xDebut))
+    return suite
+"""
+
+#tableau 2 dim adjacent
+
+
